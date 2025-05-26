@@ -94,6 +94,9 @@ h1, h2, h3, h4, h5, h6, figure {
 .container-logo{
   max-width: 100%;
 }
+.container-ima{
+  max-width:450px;
+}
 
 @media screen and (max-width: 768px) {
   .container-wrap {
@@ -428,10 +431,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1, #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
   margin: 0;
-  padding-top: 1.5em;
+  padding: 0;
   color: black;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
+  font-size: 70px;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
   margin-bottom: 20px;
@@ -1082,10 +1086,9 @@ input[type="text"] {
   margin: 0;
 }
 #fh5co-offcanvas ul li {
+  padding: 0;
   margin: 0;
   list-style: none;
-  font-size: 2rem;
-  padding: .5em;
 }
 #fh5co-offcanvas ul li > ul {
   padding-left: 20px;
